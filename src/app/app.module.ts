@@ -12,7 +12,9 @@ import { BannerComponent } from './Shared/banner/banner.component';
 import { CardComponent } from './Shared/card/card.component';
 import { ContainerComponent } from './Shared/container/container.component';
 import { HomeComponent } from './pages/home/home.component';
-
+import { CardBuscaComponent } from './Shared/card-busca/card-busca.component';
+import { MatCardModule } from '@angular/material/card';
+import { CardDepoimentosComponent } from './Shared/card-depoimentos/card-depoimentos.component';
 
 @NgModule({
   declarations: [
@@ -22,14 +24,18 @@ import { HomeComponent } from './pages/home/home.component';
     BannerComponent,
     CardComponent,
     ContainerComponent,
-    HomeComponent
+    HomeComponent,
+    CardBuscaComponent,
+    CardDepoimentosComponent
+
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MatToolbarModule,
-    MatButtonModule
+    MatButtonModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
