@@ -15,6 +15,20 @@ import { HomeComponent } from './pages/home/home.component';
 import { CardBuscaComponent } from './Shared/card-busca/card-busca.component';
 import { MatCardModule } from '@angular/material/card';
 import { CardDepoimentosComponent } from './Shared/card-depoimentos/card-depoimentos.component';
+import { FormBucaComponent } from './Shared/form-busca/form-busca.component';
+import { MatButtonToggleModule } from '@angular/material/button-toggle';
+import { MatIconModule } from '@angular/material/icon';
+import { MatChipsModule } from '@angular/material/chips';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
+import { MatDatepickerModule } from '@angular/material/datepicker';
+import { MatNativeDateModule } from '@angular/material/core';
+import { ModalComponent } from './Shared/modal/modal.component';
+import { MatDialogModule } from '@angular/material/dialog';
+import { BotaoControleComponent } from './Shared/botao-controle/botao-controle.component';
+
+
+
 
 @NgModule({
   declarations: [
@@ -26,7 +40,10 @@ import { CardDepoimentosComponent } from './Shared/card-depoimentos/card-depoime
     ContainerComponent,
     HomeComponent,
     CardBuscaComponent,
-    CardDepoimentosComponent
+    CardDepoimentosComponent,
+    FormBucaComponent,
+    ModalComponent,
+    BotaoControleComponent
 
   ],
   imports: [
@@ -35,7 +52,15 @@ import { CardDepoimentosComponent } from './Shared/card-depoimentos/card-depoime
     BrowserAnimationsModule,
     MatToolbarModule,
     MatButtonModule,
-    MatCardModule
+    MatCardModule,
+    MatButtonToggleModule,
+    MatIconModule,
+    MatChipsModule,
+    MatFormFieldModule,
+    MatInputModule,
+    MatDatepickerModule,
+    MatNativeDateModule,
+    MatDialogModule
   ],
   providers: [],
   bootstrap: [AppComponent]
