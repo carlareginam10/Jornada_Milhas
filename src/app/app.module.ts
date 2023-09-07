@@ -14,7 +14,7 @@ import { ContainerComponent } from './Shared/container/container.component';
 import { HomeComponent } from './pages/home/home.component';
 import { CardBuscaComponent } from './Shared/card-busca/card-busca.component';
 import { MatCardModule } from '@angular/material/card';
-import { CardDepoimentosComponent } from './Shared/card-depoimentos/card-depoimentos.component';
+
 import { FormBucaComponent } from './Shared/form-busca/form-busca.component';
 import { MatButtonToggleModule } from '@angular/material/button-toggle';
 import { MatIconModule } from '@angular/material/icon';
@@ -31,6 +31,8 @@ import { PromocoesComponent } from './pages/home/promocoes/promocoes.component';
 import { FormGroup, ReactiveFormsModule } from '@angular/forms';
 import {MatAutocompleteModule} from '@angular/material/autocomplete';
 import { DropdwnUfComponent } from './Shared/form-busca/dropdwn-uf/dropdwn-uf.component';
+import { DepoimentosComponent } from './pages/home/depoimentos/depoimentos.component';
+import { CardDepoimentosComponent } from './Shared/card-depoimentos/card-depoimentos.component';
 
 
 
@@ -50,7 +52,9 @@ import { DropdwnUfComponent } from './Shared/form-busca/dropdwn-uf/dropdwn-uf.co
     ModalComponent,
     BotaoControleComponent,
     PromocoesComponent,
-    DropdwnUfComponent
+    DropdwnUfComponent,
+    DepoimentosComponent,
+
 
   ],
   imports: [

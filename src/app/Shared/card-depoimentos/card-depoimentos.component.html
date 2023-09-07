@@ -1,14 +1,13 @@
-<!-- Cards with media area -->
 <mat-card class="depoimento">
   <mat-card-content>
-    <img mat-card-sm-image src="assets/imagens/avatar3.png"
-    alt="foto avatar">
+    <img mat-card-image src="{{ depoimento.avatar }}" alt="Imagem avatar">
+
     <ul>
       <li>
-        {{ depoimento }}
+        {{ depoimento.texto }}
       </li>
       <li>
-        <strong>{{autoria }} </strong>
+        <strong>{{depoimento.autor }} </strong>
       </li>
     </ul>
 
