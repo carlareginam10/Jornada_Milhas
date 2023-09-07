@@ -28,6 +28,9 @@ import { MatDialogModule } from '@angular/material/dialog';
 import { BotaoControleComponent } from './Shared/botao-controle/botao-controle.component';
 import { HttpClientModule } from '@angular/common/http';
 import { PromocoesComponent } from './pages/home/promocoes/promocoes.component';
+import { FormGroup, ReactiveFormsModule } from '@angular/forms';
+import {MatAutocompleteModule} from '@angular/material/autocomplete';
+import { DropdwnUfComponent } from './Shared/form-busca/dropdwn-uf/dropdwn-uf.component';
 
 
 
@@ -46,7 +49,8 @@ import { PromocoesComponent } from './pages/home/promocoes/promocoes.component';
     FormBucaComponent,
     ModalComponent,
     BotaoControleComponent,
-    PromocoesComponent
+    PromocoesComponent,
+    DropdwnUfComponent
 
   ],
   imports: [
@@ -64,7 +68,9 @@ import { PromocoesComponent } from './pages/home/promocoes/promocoes.component';
     MatDatepickerModule,
     MatNativeDateModule,
     MatDialogModule,
-    HttpClientModule
+    HttpClientModule,
+    ReactiveFormsModule,
+    MatAutocompleteModule
   ],
   providers: [],
   bootstrap: [AppComponent]
