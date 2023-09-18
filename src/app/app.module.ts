@@ -33,6 +33,7 @@ import {MatAutocompleteModule} from '@angular/material/autocomplete';
 import { DropdwnUfComponent } from './Shared/form-busca/dropdwn-uf/dropdwn-uf.component';
 import { DepoimentosComponent } from './pages/home/depoimentos/depoimentos.component';
 import { CardDepoimentosComponent } from './Shared/card-depoimentos/card-depoimentos.component';
+import { LoginComponent } from './pages/login/login.component';
 
 
 
@@ -54,6 +55,7 @@ import { CardDepoimentosComponent } from './Shared/card-depoimentos/card-depoime
     PromocoesComponent,
     DropdwnUfComponent,
     DepoimentosComponent,
+    LoginComponent,
 
 
   ],
