@@ -1,4 +1,5 @@
 export interface Promocao {
+
   id:number
   destino: string
   imagem: string
@@ -19,3 +20,7 @@ export interface Depoimentos {
   avatar: string
 
 }
+
+
+
+

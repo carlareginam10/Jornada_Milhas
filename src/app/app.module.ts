@@ -34,6 +34,12 @@ import { DropdwnUfComponent } from './Shared/form-busca/dropdwn-uf/dropdwn-uf.co
 import { DepoimentosComponent } from './pages/home/depoimentos/depoimentos.component';
 import { CardDepoimentosComponent } from './Shared/card-depoimentos/card-depoimentos.component';
 import { LoginComponent } from './pages/login/login.component';
+import { FormBaseComponent } from './Shared/form-base/form-base.component';
+import {MatRadioModule } from '@angular/material/radio';
+import {MatDividerModule } from '@angular/material/divider';
+import {MatCheckboxModule } from '@angular/material/checkbox';
+import { CadastroComponent } from './pages/cadastro/cadastro.component';
+
 
 
 
@@ -56,9 +62,11 @@ import { LoginComponent } from './pages/login/login.component';
     DropdwnUfComponent,
     DepoimentosComponent,
     LoginComponent,
-
+    FormBaseComponent,
+    CadastroComponent
 
   ],
+
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -76,7 +84,12 @@ import { LoginComponent } from './pages/login/login.component';
     MatDialogModule,
     HttpClientModule,
     ReactiveFormsModule,
-    MatAutocompleteModule
+    MatAutocompleteModule,
+    MatRadioModule,
+    MatDividerModule,
+    MatCheckboxModule
+
+
   ],
   providers: [],
   bootstrap: [AppComponent]
