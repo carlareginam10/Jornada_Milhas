@@ -30,7 +30,8 @@ export interface PessoaUsuaria {
   senha: string,
   genero: string,
   cidade: string,
-  estado:UnidadeFederativa
+  estado:UnidadeFederativa,
+
 
 }
 
